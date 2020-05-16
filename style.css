@@ -3,7 +3,7 @@ body {
 
   }
 .footer {
-    position: fixed;
+    margin-top: 500px;
     left: 0;
     bottom: 0;
     width: 100%;
