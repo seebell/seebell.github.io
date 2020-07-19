@@ -5,20 +5,6 @@ AOS.init({
     anchorPlacement: 'top-bottom'
 });
 
-// $(".navbar-toggler").hover(function () {
-//     $("#navbarToggleExternalContent").addClass("show")
-// }, function () {
-//     $("#navbarToggleExternalContent").remove("show")
-// }
-// );
-
-// $(".navbar-toggler").toggleClass(
-//     function () {
-//         $("#navbarToggleExternalContent").addClass("show");
-//     }, function () {
-//         $("#navbarToggleExternalContent").removeClass("show");
-//     }
-// );
 
 $(".navbar-toggler").on("click", function () {
     const button = $(".navbar-toggler");
